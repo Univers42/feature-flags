@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Three-tier feature-flag resolution — URL parameter, then localStorage, then build-time env — generic over the host's flag-name union. Zero dependencies, SSR-safe.",
+  "description": "Three-tier feature-flag resolution \u2014 URL parameter, then localStorage, then build-time env \u2014 generic over the host's flag-name union. Zero dependencies, SSR-safe.",
   "exports": {
     ".": "./src/index.ts"
   },
@@ -13,6 +13,7 @@
     "check": "npm run typecheck && npm test"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "@types/node": "^22.10.0"
   }
 }
